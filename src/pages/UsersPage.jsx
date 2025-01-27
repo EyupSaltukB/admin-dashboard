@@ -1,11 +1,11 @@
-import Header from "../components/Header";
+import Header from "../components/common/Header";
 import { motion } from "framer-motion";
-import StatCard from "../components/StatCard";
+import StatCard from "../components/common/StatCard";
 import { UserCheck, UserPlus, UserX, UsersIcon } from "lucide-react";
-import UsersTable from "../components/UsersTable";
-import UserGrowthChart from "../components/UserGrowthChart";
-import UserActivityHeatmap from "../components/UserActivityHeatmap";
-import UserDemographicsChart from "../components/UserDemographicsChart";
+import UsersTable from "../components/users/UsersTable";
+import UserGrowthChart from "../components/users/UserGrowthChart";
+import UserActivityHeatmap from "../components/users/UserActivityHeatmap";
+import UserDemographicsChart from "../components/users/UserDemographicsChart";
 
 const userStats = {
     totalUsers : 19398,

@@ -1,11 +1,11 @@
 import React from 'react'
-import Header from '../components/Header';
+import Header from '../components/common/Header';
 import {motion } from "framer-motion"
-import StatCard from '../components/StatCard';
+import StatCard from '../components/common/StatCard';
 import { AlertTriangle, DollarSign, Package, TrendingUp } from 'lucide-react';
-import ProductTable from '../components/ProductTable';
-import CategoryDistributionChart from '../components/CategoryDistributionChart';
-import SalesTrendChart from '../components/SalesTrendChart';
+import ProductTable from '../components/products/ProductTable';
+import CategoryDistributionChart from '../components/overview/CategoryDistributionChart';
+import SalesTrendChart from '../components/products/SalesTrendChart';
 
 const ProductsPage = () => {
   return (
